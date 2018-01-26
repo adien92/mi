@@ -6,7 +6,7 @@
 	background-image: url('../image/miad.png');
 	background-image:no-repeat;
 	height: 118px;
-	width: 1230px;
+	width: 1226px;
 	margin:0 auto;
 }
 .mi_nav{
@@ -14,7 +14,7 @@
 	background-color: #333333;
 }
 .mi_nav .nav_content{
-	width: 1230px;
+	width: 1226px;
 	margin:0 auto;
 }
 .mi_nav .nav_content .nav_l ul li{
@@ -66,9 +66,10 @@
 
 /*页面导航*/
 .page_nav{
-	width: 1230px;
+	width: 1226px;
 	height: 100px;
 	margin:0 auto;
+	overflow: hidden;
 }
 .page_nav .p_logo{
 	width: 228px;
@@ -336,6 +337,7 @@
 /*产品展示*/
 .pro{
 	background-color: #F5F5F5;
+	padding-bottom: 150px;	
 }
 
 /*产品分类*/
@@ -442,4 +444,119 @@
 	height: 7px;
 	width: 100%;
 	/*border-bottom: 2px solid red;*/
+}
+
+/*结尾*/
+.footer{
+	width:1226px;
+	margin: 0 auto;
+	text-align: center;
+}
+.footer .baozhang{
+	height: 77px;
+	line-height: 77px;
+	font-size: 22px;
+	color: black;
+	border-bottom: 1px solid #E0E0E0;
+}
+.footer .baozhang ul{
+	display: table;
+	margin:0 auto;
+	height:40px;
+	text-align: center;
+	padding:0;
+}
+.footer .baozhang ul li {
+	float: left;
+	margin: 0 20px 0 20px;	
+}
+.footer .link {
+	margin-top: 10px;	
+	height: 132px;
+}
+.footer .link .l1{	
+	width:970px;
+	height: 110px;
+	margin-top: 10px;
+	border-right:  1px solid #E0E0E0;
+}
+.footer .link .l1 ul{
+	display: table;
+	margin:0 auto;	
+	text-align: center;
+	padding:0;
+}
+
+.footer .link .l1 ul li{
+	float: left;
+	margin-right:  100px;	
+	margin-bottom: 10px;
+}
+.footer .link .l1 ul li p{
+	margin-left: 5px;
+	color:black;
+	font-size: 15px;
+}
+.footer .link .l1 ul li a{
+	color:black;
+	font-size: 14px;
+}
+
+.footer .link .l2{
+	width: 250px;
+	height: 150px
+	margin-top: 10px;
+}
+.l2{
+
+}
+.l2 .p1{
+	font-size: 20px;
+	color: #FF6700;
+}
+.l2 .p2{
+	font-size: 14px;
+	color: #616161;
+}
+.l2 .p3{
+	font-size: 14px;
+	color: #616161;
+}
+.l2 .phone{
+	height: 28px;
+	line-height: 28px;
+	width: 120px;
+	color: #F25807;
+	font-size: 14px;
+	text-align: center;
+	border: 1px solid #F25807;
+	margin: 0 auto;
+	margin-top: 19px;
+}
+.l2 .phone:hover{
+	color: white;
+	background-color: #F25807;
+}
+
+/*关于*/
+.about{
+	height: 66px;
+	margin-top: 10px;
+}
+.about .word{
+	width: 960px;	
+	font-size: 14px;
+	text-align: left;
+}
+.about .word p{
+	margin-top: 20px;
+	margin:0;
+	padding:0;
+	font-size: 14px;
+}
+.miui{
+	height: 72px;
+	line-height: 72px;
+	color:black;
+	font:"楷体";
 }
